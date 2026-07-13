@@ -5,6 +5,7 @@
 ## 在线演示
 
 **[🔗 点击体验在线 Demo](https://d6c67bfc55b18bc2e9.gradio.live)**
+**Demo 链接**：https://d6c67bfc55b18bc2e9.gradio.live
 
 ## 项目展示
 
