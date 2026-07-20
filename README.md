@@ -45,7 +45,6 @@
 ```bash
 pip install ultralytics supervision streamlit opencv-python
 streamlit run app.py
-```bash
 
 ##未来改进计划
 支持更多类别检测（公交车等）
