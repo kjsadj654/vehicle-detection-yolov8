@@ -6,7 +6,7 @@
 
 **[🔗 点击体验在线 Demo](https://d6c67bfc55b18bc2e9.gradio.live)**
 **Demo 链接**：https://d6c67bfc55b18bc2e9.gradio.live
-
+**[📺 项目演示视频](https://youtu.be/x7F4Fv1ocpk)**
 ## 项目展示
 
 ### 功能特点
