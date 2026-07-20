@@ -1,6 +1,6 @@
 # 🚗 车辆检测系统 - YOLOv8
 
-基于 Roboflow 自定义数据集训练的车辆检测模型，支持小汽车、电动车、卡车等多种目标检测。
+基于 YOLOv8 + ByteTrack 实现的实时多目标检测与跟踪系统，支持车辆计数和轨迹显示。
 
 ## 在线演示
 
@@ -8,6 +8,12 @@
 **Demo 链接**：https://d6c67bfc55b18bc2e9.gradio.live
 
 ## 项目展示
+
+### 功能特点
+- 实时车辆检测
+- 多目标跟踪（ByteTrack）
+- 实时数量统计
+- 轨迹可视化
 
 ### Demo 界面
 ![Demo 界面](vehicle-detection-project/demo_interface_full.png)
@@ -29,15 +35,22 @@
 
 ## 技术栈
 
-- **模型**：YOLOv8 (Roboflow 3.0)
-- **框架**：Ultralytics
-- **部署方式**：Gradio Web Demo
-- **数据集**：自定义车辆数据集（347 张图片）
+- **检测模型**：YOLOv8(Roboflow 3.0)
+- **跟踪算法**：ByteTrack (Supervision)
+- **Web 框架**：Streamlit
+- **数据集**：Roboflow 自定义车辆数据集(347 张图片)
+
+## 如何本地运行
+
+```bash
+pip install ultralytics supervision streamlit opencv-python
+streamlit run app.py
 
 ## 未来改进计划
 
-- 增加更多类别（公交车、特殊车辆）
-- 实现实时视频流检测
-- 尝试部署到移动端
+- 支持更多类别检测（公交车等）
+- 增加异常行为检测
+- 尝试部署到移动端（Android/iOS）
+
 
 ---
