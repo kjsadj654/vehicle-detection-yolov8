@@ -46,7 +46,7 @@
 pip install ultralytics supervision streamlit opencv-python
 streamlit run app.py
 
-## 未来改进计划
+### 未来改进计划
 
 - 支持更多类别检测（公交车等）
 - 增加异常行为检测
