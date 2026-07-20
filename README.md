@@ -46,7 +46,7 @@
 pip install ultralytics supervision streamlit opencv-python
 streamlit run app.py
 ```
-🚀 未来改进计划
+##🚀 未来改进计划
 支持更多类别检测：扩展数据集，支持公交车、卡车等更多交通工具的检测。
 
 增加异常行为检测：引入行为识别算法，检测违章变道、行人闯红灯等异常。
